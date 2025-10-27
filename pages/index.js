@@ -68,11 +68,10 @@ export default function Home({ destinations }) {
                 Smart Tourism Guide
               </h1>
               <p className={`text-2xl md:text-3xl mb-4 font-light text-white ${mounted ? 'animate-fade-in-up animation-delay-200' : 'opacity-0'}`}>
-                Discover Destinations with <span className="font-bold text-yellow-300">Semantic Web Intelligence</span>
+                Enterprise Intelligent Tourism Platform with <span className="font-bold text-yellow-300">Semantic Web Intelligence</span>
               </p>
               <p className={`text-lg text-blue-100 max-w-3xl mx-auto leading-relaxed ${mounted ? 'animate-fade-in-up animation-delay-400' : 'opacity-0'}`}>
-                Explore India's heritage sites, adventure destinations, and spiritual places 
-                with AI-powered recommendations based on RDF relationships and XML data
+                Leveraging cutting-edge RDF knowledge graphs, XML schemas, and AI-powered recommendation engines to deliver context-aware destination discovery across India's heritage sites, adventure destinations, and spiritual landmarks
               </p>
               
               {/* Animated Stats */}
@@ -174,28 +173,28 @@ export default function Home({ destinations }) {
           {/* Features Section with Hover Animations */}
           <section className="mt-24">
             <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent">
-              Why Choose Smart Tourism Guide?
+              Enterprise-Grade Platform Capabilities
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500 border-t-4 border-blue-500">
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🔍</div>
-                <h3 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-primary-600 transition-colors">Semantic Search</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-primary-600 transition-colors">Knowledge Graph Search</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Find destinations using intelligent semantic relationships powered by cutting-edge RDF technology
+                  Advanced semantic querying with RDF triple stores, SPARQL optimization, and intelligent reasoning capabilities for context-aware destination discovery
                 </p>
               </div>
               <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500 border-t-4 border-purple-500 animation-delay-200">
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">🗺️</div>
-                <h3 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-purple-600 transition-colors">Related Places</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-purple-600 transition-colors">Ontology-Based Inference</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Discover nearby attractions and similar destinations through advanced ontology-based connections
+                  Automated relationship mapping using OWL ontologies and semantic inference rules to discover hidden connections and thematic patterns
                 </p>
               </div>
               <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500 border-t-4 border-yellow-500 animation-delay-400">
                 <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300">⭐</div>
-                <h3 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-yellow-600 transition-colors">Personalized Experience</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-yellow-600 transition-colors">AI-Powered Personalization</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Save your favorite destinations and receive tailored, intelligent recommendations
+                  Machine learning algorithms integrated with semantic data for hyper-personalized recommendations based on user preferences and behavioral patterns
                 </p>
               </div>
             </div>
