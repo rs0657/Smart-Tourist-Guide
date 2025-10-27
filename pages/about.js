@@ -318,7 +318,7 @@ export default function About() {
                   📧 Email Us
                 </a>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/rs0657/Smart-Tourist-Guide.git" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-800 text-white px-6 py-3 rounded-md hover:bg-gray-900 transition font-medium"
