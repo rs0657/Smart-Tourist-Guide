@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<destinations>
+  <destination id="taj-mahal">
+    <name>Taj Mahal</name>
+    <category>Heritage</category>
+    <city>Agra</city>
+    <state>Uttar Pradesh</state>
+    <country>India</country>
+    <description>The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna. It was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal. A UNESCO World Heritage Site and one of the Seven Wonders of the World.</description>
+    <image>/images/tajmahal.jpeg</image>
+    <latitude>27.1751</latitude>
+    <longitude>78.0421</longitude>
+    <rating>4.8</rating>
+    <bestTimeToVisit>October to March</bestTimeToVisit>
+  </destination>
+
+  <destination id="agra-fort">
+    <name>Agra Fort</name>
+    <category>Heritage</category>
+    <city>Agra</city>
+    <state>Uttar Pradesh</state>
+    <country>India</country>
+    <description>Agra Fort is a historical fort in the city of Agra. It was the main residence of the emperors of the Mughal Dynasty until 1638. A UNESCO World Heritage site, it is located about 2.5 km northwest of its more famous sister monument, the Taj Mahal.</description>
+    <image>/images/agrafort.jpg</image>
+    <latitude>27.1795</latitude>
+    <longitude>78.0211</longitude>
+    <rating>4.6</rating>
+    <bestTimeToVisit>October to March</bestTimeToVisit>
+  </destination>
+
+  <destination id="goa-beach">
+    <name>Goa Beaches</name>
+    <category>Beach</category>
+    <city>Panaji</city>
+    <state>Goa</state>
+    <country>India</country>
+    <description>Goa is famous for its pristine beaches with golden sands and azure waters. Popular beaches include Baga, Calangute, Anjuna, and Palolem. Perfect for water sports, beach parties, and relaxation.</description>
+    <image>/images/GOA.jpg</image>
+    <latitude>15.2993</latitude>
+    <longitude>74.1240</longitude>
+    <rating>4.7</rating>
+    <bestTimeToVisit>November to February</bestTimeToVisit>
+  </destination>
+
+  <destination id="manali">
+    <name>Manali</name>
+    <category>Adventure</category>
+    <city>Manali</city>
+    <state>Himachal Pradesh</state>
+    <country>India</country>
+    <description>Manali is a high-altitude Himalayan resort town famous for its cool climate and snow-capped mountains. Popular for skiing, paragliding, river rafting, and trekking. The Solang Valley and Rohtang Pass are major attractions.</description>
+    <image>https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=800&amp;q=80</image>
+    <latitude>32.2396</latitude>
+    <longitude>77.1887</longitude>
+    <rating>4.5</rating>
+    <bestTimeToVisit>October to June</bestTimeToVisit>
+  </destination>
+
+  <destination id="jaipur-palace">
+    <name>Jaipur City Palace</name>
+    <category>Heritage</category>
+    <city>Jaipur</city>
+    <state>Rajasthan</state>
+    <country>India</country>
+    <description>The City Palace in Jaipur is a magnificent palace complex that showcases the rich history of the royal family. It includes Chandra Mahal and Mubarak Mahal palaces and other buildings. A blend of Rajasthani and Mughal architecture.</description>
+    <image>https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&amp;q=80</image>
+    <latitude>26.9255</latitude>
+    <longitude>75.8237</longitude>
+    <rating>4.6</rating>
+    <bestTimeToVisit>November to February</bestTimeToVisit>
+  </destination>
+
+  <destination id="kerala-backwaters">
+    <name>Kerala Backwaters</name>
+    <category>Nature</category>
+    <city>Alappuzha</city>
+    <state>Kerala</state>
+    <country>India</country>
+    <description>The Kerala Backwaters are a network of brackish lagoons and lakes lying parallel to the Arabian Sea coast. Famous for houseboat cruises, lush greenery, and serene natural beauty. A unique ecosystem with rich biodiversity.</description>
+    <image>https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&amp;q=80</image>
+    <latitude>9.4981</latitude>
+    <longitude>76.3388</longitude>
+    <rating>4.8</rating>
+    <bestTimeToVisit>September to March</bestTimeToVisit>
+  </destination>
+
+  <destination id="varanasi-ghats">
+    <name>Varanasi Ghats</name>
+    <category>Spiritual</category>
+    <city>Varanasi</city>
+    <state>Uttar Pradesh</state>
+    <country>India</country>
+    <description>Varanasi, also known as Kashi, is one of the oldest living cities in the world. The ghats along the Ganges River are famous for spiritual ceremonies, particularly the evening Ganga Aarti. A major pilgrimage destination for Hindus.</description>
+    <image>https://images.unsplash.com/photo-1609920658906-8223bd289001?w=800&amp;q=80</image>
+    <latitude>25.3176</latitude>
+    <longitude>82.9739</longitude>
+    <rating>4.7</rating>
+    <bestTimeToVisit>October to March</bestTimeToVisit>
+  </destination>
+
+  <destination id="ladakh">
+    <name>Ladakh</name>
+    <category>Adventure</category>
+    <city>Leh</city>
+    <state>Ladakh</state>
+    <country>India</country>
+    <description>Ladakh is a region known for its stunning landscapes, Buddhist monasteries, and adventure activities. Famous for Pangong Lake, Nubra Valley, and high-altitude mountain passes. Perfect for biking, trekking, and photography.</description>
+    <image>https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800&amp;q=80</image>
+    <latitude>34.1526</latitude>
+    <longitude>77.5771</longitude>
+    <rating>4.9</rating>
+    <bestTimeToVisit>May to September</bestTimeToVisit>
+  </destination>
+
+  <destination id="mysore-palace">
+    <name>Mysore Palace</name>
+    <category>Heritage</category>
+    <city>Mysore</city>
+    <state>Karnataka</state>
+    <country>India</country>
+    <description>The Mysore Palace is a historical palace and a royal residence. It is the official residence of the Wadiyar dynasty. The palace is illuminated on Sundays and during festivals with nearly 100,000 light bulbs. An architectural marvel of Indo-Saracenic style.</description>
+    <image>/images/mysore palace.jpg</image>
+    <latitude>12.3051</latitude>
+    <longitude>76.6551</longitude>
+    <rating>4.7</rating>
+    <bestTimeToVisit>October to February</bestTimeToVisit>
+  </destination>
+
+  <destination id="rishikesh">
+    <name>Rishikesh</name>
+    <category>Spiritual</category>
+    <city>Rishikesh</city>
+    <state>Uttarakhand</state>
+    <country>India</country>
+    <description>Rishikesh is a city in India's northern state of Uttarakhand, known as the 'Yoga Capital of the World'. Located in the foothills of the Himalayas beside the Ganges River, it's famous for yoga ashrams, meditation centers, and adventure sports like river rafting.</description>
+    <image>/images/rishikesh.jpg</image>
+    <latitude>30.0869</latitude>
+    <longitude>78.2676</longitude>
+    <rating>4.6</rating>
+    <bestTimeToVisit>September to November</bestTimeToVisit>
+  </destination>
+</destinations>
