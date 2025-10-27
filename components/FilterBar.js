@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
-export default function FilterBar({ onFilterChange, categories = [] }) {
+export default function FilterBar({ onFilterChange, categories = [], states = [] }) {
   const [filters, setFilters] = useState({
     category: 'All',
     search: '',
-    state: '',
+    state: 'All',
   })
 
   const handleFilterChange = (key, value) => {
@@ -17,7 +17,7 @@ export default function FilterBar({ onFilterChange, categories = [] }) {
     const clearedFilters = {
       category: 'All',
       search: '',
-      state: '',
+      state: 'All',
     }
     setFilters(clearedFilters)
     onFilterChange(clearedFilters)
@@ -25,15 +25,15 @@ export default function FilterBar({ onFilterChange, categories = [] }) {
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        {/* Search */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* Search by Destination Name */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Search
+            🔍 Search Destination
           </label>
           <input
             type="text"
-            placeholder="Search destinations..."
+            placeholder="e.g., Taj Mahal, Goa..."
             value={filters.search}
             onChange={(e) => handleFilterChange('search', e.target.value)}
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary-500 focus:border-primary-500"
@@ -43,7 +43,7 @@ export default function FilterBar({ onFilterChange, categories = [] }) {
         {/* Category Filter */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Category
+            🏷️ Category
           </label>
           <select
             value={filters.category}
@@ -62,15 +62,20 @@ export default function FilterBar({ onFilterChange, categories = [] }) {
         {/* State Filter */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            State
+            📍 State
           </label>
-          <input
-            type="text"
-            placeholder="Filter by state..."
+          <select
             value={filters.state}
             onChange={(e) => handleFilterChange('state', e.target.value)}
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary-500 focus:border-primary-500"
-          />
+          >
+            <option value="All">All States</option>
+            {states.map((state) => (
+              <option key={state} value={state}>
+                {state}
+              </option>
+            ))}
+          </select>
         </div>
 
         {/* Clear Button */}

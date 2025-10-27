@@ -4,12 +4,13 @@ import DestinationCard from '../components/DestinationCard'
 import FilterBar from '../components/FilterBar'
 import Loader, { CardSkeleton } from '../components/Loader'
 import { getDestinations, filterDestinations } from '../lib/xmlParser'
-import { getUniqueCategories } from '../lib/dataUtils'
+import { getUniqueCategories, getUniqueStates } from '../lib/dataUtils'
 import { supabase, getFavorites } from '../lib/supabaseClient'
 
 export default function Home({ destinations }) {
   const [filteredDestinations, setFilteredDestinations] = useState(destinations)
   const [categories, setCategories] = useState([])
+  const [states, setStates] = useState([])
   const [favorites, setFavorites] = useState([])
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(false)
@@ -17,9 +18,11 @@ export default function Home({ destinations }) {
 
   useEffect(() => {
     setMounted(true)
-    // Set categories
+    // Set categories and states
     const uniqueCategories = getUniqueCategories(destinations)
+    const uniqueStates = getUniqueStates(destinations)
     setCategories(uniqueCategories)
+    setStates(uniqueStates)
 
     // Get user and favorites
     const loadUserData = async () => {
@@ -119,7 +122,7 @@ export default function Home({ destinations }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           {/* Filter Bar with Animation */}
           <div id="destinations" className={mounted ? 'animate-slide-in-up' : 'opacity-0'}>
-            <FilterBar onFilterChange={handleFilterChange} categories={categories} />
+            <FilterBar onFilterChange={handleFilterChange} categories={categories} states={states} />
           </div>
 
           {/* Results Count with Animation */}
